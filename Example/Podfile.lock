@@ -1,0 +1,23 @@
+PODS:
+  - DovMess (0.1.0)
+  - Expecta (1.0.3)
+  - OCMock (3.2)
+  - Specta (1.0.4)
+
+DEPENDENCIES:
+  - DovMess (from `../`)
+  - Expecta
+  - OCMock
+  - Specta
+
+EXTERNAL SOURCES:
+  DovMess:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DovMess: 9248361e5b4f6a3bbe8078b18f5107ecb65b61fc
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  OCMock: 28def049ef47f996b515a8eeea958be7ccab2dbb
+  Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
+
+COCOAPODS: 0.38.2

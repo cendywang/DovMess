@@ -1,0 +1,6 @@
+framework module DovMess {
+  umbrella header "DovMess-umbrella.h"
+
+  export *
+  module * { export * }
+}
