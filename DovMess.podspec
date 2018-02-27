@@ -9,14 +9,12 @@ Pod::Spec.new do |s|
                        DESC
 
   s.license          = 'MIT'
+  s.homepage         = "https://www.cainwang.com"
   s.author           = { "cendywang" => "cendymails@gmail.com" }
   s.source           = { :git => "https://github.com/cendywang/DovMess", :tag => s.version.to_s }
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.source_files = 'Pod/Classes/*'
-  s.resource_bundles = {
-    'DovMess' => ['Pod/Assets/*.png']
-  }
   s.public_header_files = 'Pod/Classes/*.h'
   s.frameworks = 'UIKit'
 end
